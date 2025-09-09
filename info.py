@@ -15,8 +15,8 @@ def is_enabled(value, default):
 
 #Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '20218334'))
-API_HASH = environ.get('API_HASH', 'c405bec49229644eec362c6c079734ff')
+API_ID = int(environ.get('API_ID', '21419016'))
+API_HASH = environ.get('API_HASH', '79198e1eb4cfd0f771a89d83b9144e7e')
 BOT_TOKEN = environ.get('BOT_TOKEN', '8372208427:AAEbi6TVuKVppslmuS21VMeTxyCi1lUepAY')
 
 # Keep-Alive URL
