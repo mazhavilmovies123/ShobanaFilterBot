@@ -175,9 +175,9 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
               [
-                  InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/new_ott_movies3'),
-                  InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/mn_movies2'),
-                  InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/mn-bots/ShobanaFilterBot')
+                  InlineKeyboardButton(f'Oᴛᴛ Rᴇʟᴇᴀsᴇs Uᴘᴅᴀᴛᴇs'​', url='https://t.me/mazhavilMovies_Updates'),
+                  InlineKeyboardButton(f'Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Rᴇʟᴇᴀsᴇs', url='https://t.me/MazhavilMoviesLinks'),
+                  InlineKeyboardButton('Bᴏᴛ Uᴘᴅᴀᴛᴇs Gʀᴏᴜᴘ', url='https://t.me/mazhavil_bots')
          ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -198,10 +198,10 @@ async def start(client, message):
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ], [
-             InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/new_ott_movies3'),
-             InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/mn_movies2')
+             InlineKeyboardButton(f'​Oᴛᴛ Rᴇʟᴇᴀsᴇs Uᴘᴅᴀᴛᴇs'', url='https://t.me/mazhavilMovies_Updates'),
+             InlineKeyboardButton(f'Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Rᴇʟᴇᴀsᴇs', url='https://t.me/MazhavilMoviesLinks')
         ],[
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/mn-bots/ShobanaFilterBot')
+            InlineKeyboardButton('Bᴏᴛ Uᴘᴅᴀᴛᴇs Gʀᴏᴜᴘ', url='https://t.me/mazhavil_bots')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_text("ShobanaFilterBot") 
@@ -240,10 +240,10 @@ async def start(client, message):
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ], [
-             InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/new_ott_movies3'),
-             InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/mn_movies2')
+             InlineKeyboardButton(f'Oᴛᴛ Rᴇʟᴇᴀsᴇs Uᴘᴅᴀᴛᴇs​', url='https://t.me/mazhavilMovies_Updates'),
+             InlineKeyboardButton(f'Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Rᴇʟᴇᴀsᴇs', url='https://t.me/MazhavilMoviesLinks')
         ],[
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/mn-bots/ShobanaFilterBot')
+            InlineKeyboardButton('Bᴏᴛ Uᴘᴅᴀᴛᴇs Gʀᴏᴜᴘ', url='https://t.me/mazhavil_bots')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
