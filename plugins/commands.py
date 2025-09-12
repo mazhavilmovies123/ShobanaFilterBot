@@ -193,12 +193,16 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                InlineKeyboardButton('🖥 Oᴛᴛ Rᴇʟᴇᴀsᴇs Uᴘᴅᴀᴛᴇs  🖥', url=f'https://t.me/mazhavilMovies_Updates')
-               ],[
-                InlineKeyboardButton('⚙ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Rᴇʟᴇᴀsᴇs ⚙', url=f'https://t.me/MazhavilMoviesLinks')
-              ],[
-                InlineKeyboardButton('📤 Bᴏᴛ Uᴘᴅᴀᴛᴇs Gʀᴏᴜᴘ 📤', url="https://t.me/mazhavil_bots"),
-                  ]]
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+        ], [
+             InlineKeyboardButton(f'🖥 Oᴛᴛ Rᴇʟᴇᴀsᴇs Uᴘᴅᴀᴛᴇs  🖥'​', url='https://t.me/mazhavilMovies_Updates'),
+             InlineKeyboardButton(f'⚙ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Rᴇʟᴇᴀsᴇs ⚙', url='https://t.me/MazhavilMoviesLinks')
+        ],[
+            InlineKeyboardButton('📤 Bᴏᴛ Uᴘᴅᴀᴛᴇs Gʀᴏᴜᴘ 📤', url='https://t.me/mazhavil_bots')
+         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_text("ShobanaFilterBot") 
         await asyncio.sleep(1.2)
@@ -231,12 +235,16 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('🖥 Oᴛᴛ Rᴇʟᴇᴀsᴇs Uᴘᴅᴀᴛᴇs  🖥', url=f'https://t.me/mazhavilMovies_Updates')
-               ],[
-                InlineKeyboardButton('⚙ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Rᴇʟᴇᴀsᴇs ⚙', url=f'https://t.me/MazhavilMoviesLinks')
-              ],[
-                InlineKeyboardButton('📤 Bᴏᴛ Uᴘᴅᴀᴛᴇs Gʀᴏᴜᴘ 📤', url="https://t.me/mazhavil_bots"),
-                  ]]
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+        ], [
+             InlineKeyboardButton(f'🖥 Oᴛᴛ Rᴇʟᴇᴀsᴇs Uᴘᴅᴀᴛᴇs  🖥'', url='https://t.me/mazhavilMovies_Updates'),
+             InlineKeyboardButton(f'⚙ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Rᴇʟᴇᴀsᴇs ⚙', url='https://t.me/MazhavilMoviesLinks')
+        ],[
+            InlineKeyboardButton('📤 Bᴏᴛ Uᴘᴅᴀᴛᴇs Gʀᴏᴜᴘ 📤', url='https://t.me/mazhavil_bots')
+         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
