@@ -46,7 +46,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mn_files')
 
 # File Channel Settings
-FILE_CHANNELS = [int(ch) for ch in environ.get('FILE_CHANNELS', '-1003077167490').split()]
+FILE_CHANNELS = [int(ch) for ch in environ.get('FILE_CHANNELS', '-1003037039686 -1002984004301 -1003010938237').split()]
 FILE_CHANNEL_SENDING_MODE = is_enabled(environ.get('FILE_CHANNEL_SENDING_MODE', 'False'), False)
 FILE_AUTO_DELETE_SECONDS = int(environ.get('FILE_AUTO_DELETE_SECONDS', 3600))  # Default: 1 hour
 
