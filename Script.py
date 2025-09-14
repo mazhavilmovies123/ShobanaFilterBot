@@ -2,12 +2,11 @@ class script(object):
     START_TXT = """ Hi {}.𝗹 𝗔𝗺 Jᴅ ✨
 🎥, 𝗛𝗮𝗽𝗽𝘆 🖤 𝗧𝗼 𝗛𝗮𝘃𝗲 𝗬𝗼𝘂
 
-𝗛𝗲𝗿𝗲 𝗬𝗼𝘂 𝗖𝗮𝗻 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲'𝘀, 
-𝗝𝘂𝘀𝘁 𝗦𝗲𝗻𝘁 𝗠𝗼𝘃𝗶𝗲 𝗡𝗮𝗺𝗲 𝗪𝗶𝘁𝗵 𝗣𝗿𝗼𝗽𝗲𝗿 𝗚𝗼𝗼𝗴𝗹𝗲 𝗦𝗽𝗲𝗹𝗹𝗶𝗻𝗴..!!
+Hᴇʀᴇ Yᴏᴜ Cᴀɴ Rᴇǫᴜᴇsᴛ Mᴏᴠɪᴇ's, Jᴜsᴛ Sᴇɴᴛ Mᴏᴠɪᴇ Nᴀᴍᴇ Wɪᴛʜ Pʀᴏᴘᴇʀ <a href=https://www.google.com/> Gᴏᴏɢʟᴇ </a></b> Sᴘᴇʟʟɪɴɢ..!!
 
 🔸𝗖𝗵𝗲𝗸 𝗳𝗼𝗿 𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲𝘀 𝗟𝗶𝘀𝘁 /movies
 
-𝗖ᴏɴᴛᴀᴄᴛ 𝗕ᴏᴛ 𝗗ᴇᴠᴇʟᴏᴘᴇʀ (𝗢ʀ) 𝗥ᴇᴘᴏʀᴛ 𝗕ᴜɢꜱ..!! 👉 @MazhavilAdminBot"""
+Cᴏɴᴛᴀᴄᴛ Bᴏᴛ Dᴇᴠᴇʟᴏᴘᴇʀ (Oʀ) Rᴇᴘᴏʀᴛ Bᴜɢꜱ..!! 👉 @MazhavilAdminbot</b>"""
     HELP_TXT = """
      Hey  {} 
 Currently using free server so please Dont kill Me...
