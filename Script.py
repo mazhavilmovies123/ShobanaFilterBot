@@ -1,6 +1,5 @@
 class script(object):
-    START_TXT = """ Hi {}.𝗹 𝗔𝗺 Jᴅ ✨
-🎥, 𝗛𝗮𝗽𝗽𝘆 🖤 𝗧𝗼 𝗛𝗮𝘃𝗲 𝗬𝗼𝘂
+    START_TXT = """<b>𝖧𝖾𝗒 {}, 𝖨 𝖠𝗆 {}, 𝖧𝖺𝗉𝗉𝗒 🖤 𝖳𝗈 𝖧𝖺𝗏𝖾 𝖸𝗈𝗎
 
 Hᴇʀᴇ Yᴏᴜ Cᴀɴ Rᴇǫᴜᴇsᴛ Mᴏᴠɪᴇ's, Jᴜsᴛ Sᴇɴᴛ Mᴏᴠɪᴇ Nᴀᴍᴇ Wɪᴛʜ Pʀᴏᴘᴇʀ <a href=https://www.google.com/> Gᴏᴏɢʟᴇ </a></b> Sᴘᴇʟʟɪɴɢ..!!
 
