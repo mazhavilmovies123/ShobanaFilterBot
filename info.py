@@ -29,7 +29,7 @@ REQUEST_FSUB_MODE = bool(environ.get('REQUEST_FSUB_MODE', True))
 BOT_START_TIME = time()
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS',https://graph.org/file/2246e08b26edfda9944c7-2b80befd9295be2723.jpg https://graph.org/file/d5280e61c821916099e35-088a0668a0cb8eeff9.jpg https://graph.org/file/feec96f668ed6157b9b41-b7123480480a3e1861.jpg https://graph.org/file/6459a9054d1bd55357dc4-f6d61022742ea6b915.jpg')).split()
+PICS = (environ.get('PICS' ,https://graph.org/file/2246e08b26edfda9944c7-2b80befd9295be2723.jpg https://graph.org/file/d5280e61c821916099e35-088a0668a0cb8eeff9.jpg https://graph.org/file/feec96f668ed6157b9b41-b7123480480a3e1861.jpg https://graph.org/file/6459a9054d1bd55357dc4-f6d61022742ea6b915.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1933114137').split()]
