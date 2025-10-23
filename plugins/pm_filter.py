@@ -441,15 +441,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🖥Oᴛᴛ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🖥', url=f'https://t.me/+BTh89gNULSdiOWFl')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
-        ],[
-             InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/new_ott_movies3'),
-             InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/mn_movies2')
+            InlineKeyboardButton('⚓️Oᴛᴛ ᴍᴏᴠɪᴇ sᴛʀᴇᴀᴍɪɴɢ⚓️', url='https://t.me/+NE3VMORHtoU3OWU1')
          ],[
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/mn-bots/ShobanaFilterBot')
+            InlineKeyboardButton('⚙Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Rᴇʟᴇᴀsᴇs⚙', url='https://t.me/+eqPQjQe2qGYyODU1')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
