@@ -121,12 +121,11 @@ Added By - {}
     CUSTOM_FILE_CAPTION = """📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 FɪʟᴇSɪᴢᴇ : {file_size}
 
-╔═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs   ═╗
- Jᴏɪɴ :- [MAIN CHANNEL](https://t.me/MazhavilMoviesLinks)
- Jᴏɪɴ :- [ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs](https://t.me/mazhavilMovies_Updates)
- Jᴏɪɴ :- [Lᴀᴛᴇsᴛ ᴍᴏᴠɪᴇ ʀᴇʟᴇᴀsᴇ](https://t.me/+ncYwpziKjuozMjJl)
- Jᴏɪɴ :- [Mᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛɪɴɢ ɢʀᴏᴜᴘ](https://t.me/mazhavilMovies_Groups)
- ╚═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs    ═╝
+╔════•✧❅✦❅✧•════╗
+➲ [OTTUpdatesTG](https://t.me/MazhavilMoviesLinks)
+➲ [MᴏᴠɪᴇRᴇǫᴜᴇsᴛGʀᴏᴜᴘ](https://t.me/mazhavilMovies_Groups)
+➲ [LᴀᴛᴇsᴛMᴏᴠɪᴇRᴇʟᴇᴀsᴇ](https://t.me/mazhavilMovies_Updates)
+╚════•✧❅✦❅✧•════╝
 
 ⚠️ <b>This file will be deleted from here within 1 minute as it has copyright ... !!!</b>
 
