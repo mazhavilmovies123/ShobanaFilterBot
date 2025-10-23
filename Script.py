@@ -146,18 +146,16 @@ ID - <code>{}</code>
 Name - {}
 """
     SPOLL_NOT_FND="""
-❝ 𝖧𝖾𝗒 {} താഴെ ഉള്ള കാര്യങ്ങൾ ശ്രദ്ധിക്കുക ❞
-
-🔹കറക്റ്റ് സ്പെല്ലിംഗിൽ ചോദിക്കുക. (ഇംഗ്ലീഷിൽ മാത്രം)
-
-🔸സിനിമകൾ ഇംഗ്ലീഷിൽ Type ചെയ്ത് മാത്രം ചോദിക്കുക.
-
-🔹OTT റിലീസ് ആകാത്ത സിനിമകൾ ചോദിക്കരുത്.
-
-🔸സിനിമയുടെ പേര് [വർഷം ഭാഷ] ഈ രീതിയിൽ ചോദിക്കുക.
-
-🔹സിനിമ Request ചെയ്യുമ്പോൾ Symbols ഒഴിവാക്കുക. [+:;'*!-&.. etc
-‼ 𝖱𝖾𝗉𝗈𝗋𝗍 𝗍𝗈 𝖺𝖽𝗆𝗂𝗇 ▶ @MazhavilAdminBot
+I couldn't find anything related to your request. 
+Try reading the instruction below 
+<blockquote>
+1️ Ask in Correct Spelling
+2️ Don't ask Movies which are not Realased on OTT PLATFORMS
+3️ Possible  ASK [movie name langauge] like this or [movie year] </blockquote>
+OR
+<b> Tʜɪs Mᴏᴠɪᴇ Is Nᴏᴛ Aᴅᴅᴇᴅ Tᴏ DB</b>
+<pre>Report To ADMIN BY USING /bugs command </pre> 
+    """
 #SPELL CHECK LANGUAGES TO KNOW callback
     ENG_SPELL="""Please Note Below📓
 1️⃣ Ask in Correct Spelling
