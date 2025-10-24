@@ -124,7 +124,7 @@ FɪʟᴇSɪᴢᴇ : {file_size}
 ╔════•✧❅✦❅✧•════╗
 ➲ [OTTUpdatesTG](https://t.me/MazhavilMoviesLinks)
 ➲ [MᴏᴠɪᴇRᴇǫᴜᴇsᴛGʀᴏᴜᴘ](https://t.me/mazhavilMovies_Groups)
-➲ [LᴀᴛᴇsᴛMᴏᴠɪᴇRᴇʟᴇᴀsᴇ](https://t.me/mazhavilMovies_Updates)
+➲ [LᴀᴛᴇsᴛMᴏᴠɪᴇRᴇʟᴇᴀsᴇ](https://t.me/+O7J_SlGPgp1iYmE1)
 ╚════•✧❅✦❅✧•════╝
 
 ⚠️ <b>This file will be deleted from here within 1 minute as it has copyright ... !!!</b>
