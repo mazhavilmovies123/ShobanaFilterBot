@@ -17,7 +17,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21419016'))
 API_HASH = environ.get('API_HASH', '79198e1eb4cfd0f771a89d83b9144e7e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8372208427:AAEbi6TVuKVppslmuS21VMeTxyCi1lUepAY')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8366640146:AAEKQ-s2iMjWXz6_XEA0it4iFB01PafqOg8')
 
 # Keep-Alive URL
 KEEP_ALIVE_URL = environ.get("KEEP_ALIVE_URL", "https://shobanafilterbot-glhs.onrender.com")  # <-- Add this line
